@@ -6,7 +6,7 @@ loginBtn.addEventListener("click", (event) => {
   const password = document.querySelector("#password").value;
 
   if (password === "vye" || password === "buihoai" || password === "nqt" || password === "gay") {
-    window.location.href = "/fontEnd";
+    window.location.href = "/index.html";
     sessionStorage.setItem("password", password);
     console.log(sessionStorage);
   } else {
