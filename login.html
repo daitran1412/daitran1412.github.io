@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mở thư nào</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./static/css/style-login.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <!--Trigger-->
+    <a class="login-trigger" href="#" data-target="#login" data-toggle="modal">Login</a>
+
+    <div id="login" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button data-dismiss="modal" class="close">&times;</button>
+                    <h4>Login</h4>
+                    <form>
+                        <input type="password" name="password" class="password form-control" id="password" placeholder="password" />
+                        <span class="noti"></span>
+                        <input class="btn login" id="btn-login" type="submit" value="Login" src="index.html" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src="./static/js/scripts-login.js"></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+</body>
+
+</html>

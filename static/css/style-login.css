@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  text-align: center;
+}
+:root {
+  --color1: #f1622e;
+  --color2: #47adaf;
+  --bgInvitation: #fff4dc;
+  --colorTitle: #0a5b75;
+  --textColor1: #83694e;
+  --textColor2: #b8553f;
+  --textColor3: linear-gradient(to bottom right, #f1622e 30%, #47adaf 70%);
+}
+/*Trigger Button*/
+.login-trigger {
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to bottom right, var(--color2), #f87e7b);
+  padding: 15px 30px;
+  border-radius: 30px;
+  position: relative;
+  top: 50%;
+}
+
+/*Modal*/
+h4 {
+  font-weight: bold;
+  color: #fff;
+}
+.close {
+  color: #fff;
+  transform: scale(1.2);
+}
+.modal-content {
+  font-weight: bold;
+  background: linear-gradient(to bottom right, var(--color1), var(--color2));
+}
+.form-control {
+  margin: 1em 0;
+}
+.form-control:hover,
+.form-control:focus {
+  box-shadow: none;
+  border-color: #fff;
+}
+.username,
+.password {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #eee;
+  padding-left: 0;
+  font-weight: normal;
+  background: transparent;
+}
+.form-control::-webkit-input-placeholder {
+  color: #eee;
+}
+.form-control:focus::-webkit-input-placeholder {
+  font-weight: bold;
+  color: #fff;
+}
+.login {
+  padding: 6px 20px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid #fab87f;
+  color: #fab87f;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin-top: 1em;
+}
+.login:hover {
+  background: #fab87f;
+  color: #fff;
+}
