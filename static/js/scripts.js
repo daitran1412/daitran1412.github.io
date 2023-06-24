@@ -1,5 +1,5 @@
 if (sessionStorage.getItem("password") == null) {
-  window.location.href = "/fontEnd/login.html";
+  window.location.href = "/login.html";
 }
 
 window.onload = () => {
